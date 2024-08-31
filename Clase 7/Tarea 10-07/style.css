@@ -1,0 +1,130 @@
+div{
+    margin: 40px;
+}
+
+.plan{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    color: #673de6;
+    border-color: #673de6;
+    border-radius: 8px;
+    padding: 12px 48px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 12px 48px;
+    outline: none;
+    text-align: center;
+    border: 2px solid;
+}
+
+.plan:focus{
+    background-color: #673de6;
+    color: white;
+}
+
+.precio-sin-descuento{
+    color:#727586;
+    text-decoration:line-through;
+    font-family:'Trebuchet MS';
+}
+
+.ahorro{
+    font-family:'Trebuchet MS';
+    font-size: 14px;
+    color: #2f1c6a;
+    background-color: #d5dfff99;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.alf-descuento{
+    color: #2f1c6a;
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+}
+
+.precio-con-descuento{
+    color: #2f1c6a;
+    font-family:'Trebuchet MS';
+    font-size: 50px;
+}
+
+
+.ir-mas-vendidos {
+    color: #3483FA;
+    background-color: #D9E7FA;
+    border-color: #D9E7FA;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid transparent;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 30px;
+    width: 150px;
+    line-height: 12px;
+    overflow: hidden;
+    padding: 6px 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fondo {
+    background-color: #EBEBEB;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta-producto {
+    background-color: white;
+    border-radius: 6px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+}
+
+.titulo {
+    margin-right: 100px;
+    font-weight: semibold;
+    font-size: 16px;
+    color: #262626;
+}
+
+img {
+    height: 105px;
+    margin: 20px 0;
+}
+
+.descripcion {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: Proxima Nova, -apple-system, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.tarjeta-producto:hover .descripcion {
+    color: #3483FA;
+}
+
+a{
+    text-decoration: none;
+}

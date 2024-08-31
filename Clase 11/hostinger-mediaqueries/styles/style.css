@@ -1,0 +1,127 @@
+@import url(/styles/normalize.css);
+
+.title{
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--text-1);
+    font-weight: 700;
+    text-align: center;
+}
+
+.title-2{
+    line-height: 24px;
+    color: var(--text-1);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-1{
+    font-size: 14px;
+    color: var(--text-1);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.link-1{
+    font-size: 16px;
+    color: var(--text-2);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-secondary{
+    display: inline-block;
+    font-size: 16px;
+    color: var(--text-2);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 48px;
+    border:  var(--text-2) 2px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.reviews{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cards-review-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.card-review {
+    display: flex;
+    flex-direction: column;
+    border: var(--border-1);
+    border-radius: 16px ;
+    overflow: hidden;
+    max-width: 506px;
+}
+
+.card-review .card-review-author {
+    display: flex;
+    padding: 20px 32px;
+    background-color: var(--background-2);
+    gap: 10px;
+}
+
+.card-review .card-review-author img {
+    width: 48px;
+    height: 48px;
+}
+
+.card-review .card-review-content {
+    padding: 32px 32px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-review .card-review-content .rating-container {
+    color: var(--text-2);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 774px ) {
+    .card-review{
+        max-width: 686px;
+    }
+}
+
+@media screen and (min-width: 1025px ) {
+    .card-review .card-review-author{
+        height: 112px;
+        align-items: center;
+    }
+    .cards-review-container{
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 1128px;
+    }
+
+    .card-review{
+        flex: 1;
+        
+    }
+    .reviews{
+        align-items: center;
+    }
+
+    .card-review .card-review-content p{
+        height: 186px;
+    }
+}
